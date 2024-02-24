@@ -1,0 +1,34 @@
+body{
+
+    /* background-color: rgb(121, 224, 230); */
+    /* background-image: "url(./Images/a2)"; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+div {
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+margin-top: 0%;
+justify-content: center;
+}
+h1 {
+    background-color: rgb(223, 145, 29); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Spread radius, Color */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1:hover {
+    transform: scale(1.01);
+    transition: transform 0.5s ease-in-out; /* Apply transition only to the transform property */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
